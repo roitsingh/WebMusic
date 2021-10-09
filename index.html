@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>SoundCloud Music Search</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Search Your Song</h1>
+    </header>
+    <section class="player">
+      <audio id="music-player" controls="controls" autoplay src=""></audio>
+      <div id="playing">
+      </div>
+    </section>
+    <hr>
+    <div class="input-group Search-css">
+      <div id="form-outline">
+        <input type="search" id="search_field" value="" class="form-control" placeholder="Search for Artist">
+      </div>
+        <button type="button" id="submit_button"class="btn btn-primary">
+          <i class="fa fa-search"></i>
+        </button>
+       
+      </div>
+    
+    <hr>
+    <section id="results"></section>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
